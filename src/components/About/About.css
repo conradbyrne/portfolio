@@ -55,8 +55,21 @@
 }
 
 @media (max-width: 600px) {
-  .app .about {
-    align-items: flex-start;
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 2em;
+    gap: 1em; /* Reduce gap for mobile */
+  }
+
+  .about__img {
+    width: 200px; /* Adjust image size for smaller screens */
+    height: 200px;
+  }
+
+  .about__desc_part1, 
+  .about__desc_part2 {
+    max-width: 90%; /* Ensure text doesn't stretch too far on mobile */
   }
 }
