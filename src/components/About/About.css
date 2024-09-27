@@ -1,4 +1,22 @@
 .about {
+  flex-direction: row;
+  margin-top: 3em;
+  gap: 150px
+}
+
+.about__image {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image scales correctly */
+}
+
+.about__text {
   flex-direction: column;
   margin-top: 3em;
 }
@@ -11,12 +29,18 @@
   margin-top: 1.2em;
 }
 
-.about__desc {
+.about__desc_part1 {
   font-size: 1rem;
   max-width: 600px;
 }
 
-.about__desc,
+
+.about__desc_part2 {
+  margin-top: 1.2em;
+  font-size: 1rem;
+  max-width: 600px;
+}
+
 .about__contact {
   margin-top: 2.4em;
 }
