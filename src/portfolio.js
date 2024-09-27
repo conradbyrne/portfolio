@@ -34,9 +34,6 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
 
-  •	Python, Java, JavaScript, C, C++, R, MATLAB
-•	HTML, CSS, SQL, Git, Unix, RDMA
-
   'Python',
   'Java',
   'C',
