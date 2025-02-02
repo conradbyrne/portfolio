@@ -5,12 +5,12 @@ const header = {
 }
 
 const about = {
-  role: 'Aspiring Software Engineer and Project Manager',
+  role: 'Passionate about Innovation and Technology',
   description1:
-    'Hello! Thanks for checking out my portfolio. I am a student at the University of Virginia, majoring in Computer Science and minoring in Entrepreneurship and Business Innovation. I am an aspiring software engineer and product manager passionate about leveraging technology and strategic thinking to drive innovation and solve complex, interdisciplinary problems.',
+    'Hello! Thanks for checking out my portfolio. I am a student at the University of Virginia, majoring in Computer Science and minoring in Entrepreneurship and Business Innovation. I am an aspiring technology professional passionate about leveraging technology and strategic thinking to drive innovation and solve complex, interdisciplinary problems.',
   description2: 
     'This portfolio highlights some of my projects. Feel free to contact me via my email, conradbyrne44@gmail.com, or see my attached resume and LinkedIn for more information!',
-  resume: '/cleanfolio/Resume.pdf',
+  resume: '/documents/Resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/conrad-byrne-869353233/',
     github: 'https://github.com/conradbyrne',
@@ -25,9 +25,26 @@ const projects = [
     description:
       'A personal portfolio site highlighting my projects and skills with a brief personal introduction.',
     stack: ['React', 'HTML', 'CSS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/conradbyrne/portfolio',
   },
+
+  {
+    name: 'Course Review',
+    description:
+      'A GUI application where users can create accounts and make reviews for classes, with information stored in a database.',
+    stack: ['Java', 'SQL'],
+    sourceCode: 'https://github.com/conradbyrne/coursereview',
+  },
+
+  {
+    name: 'Wordle',
+    description:
+      'A command-line version of the NYT "Wordle" game.',
+    stack: ['Java'],
+    sourceCode: 'https://github.com/conradbyrne/wordle',
+  },
+
+
 ]
 
 const skills = [
@@ -43,7 +60,6 @@ const skills = [
   'CSS',
   'SQL',
   'React',
-  'Material UI',
   'Git',
   'Unix',
   'RDMA',
